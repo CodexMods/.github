@@ -1,7 +1,9 @@
 <div align="center">
 
 # Codex Mods
-![Codex logo](https://avatars.githubusercontent.com/u/309116152?s=200&v=4)  
+
+<img src="https://i.postimg.cc/V6zdP9Xf/codex-home-hero.gif" width=256 />
+
 Unofficial tooling, SDKs, RFCs, and mods for the Codex desktop app
 
 </div>
