@@ -16,13 +16,13 @@ Unofficial tooling, SDKs, RFCs, and mods for the Codex desktop app
 ## Projects
 - [`reverse`](https://github.com/CodexMods/reverse) : A complete toolkit for creating a locally running development version of the Codex app from its APPX package
   - Status : Started internally
-  - Progress : 55%
+  - Progress : 60%
 - [`auto-reverse`](https://github.com/CodexMods/auto-reverse) : A plugin for `reverse` that aims to reduce the time between an upstream app update and a working local version
   - Status : Started internally
-  - Progress : 5%
+  - Progress : 20%
 - [`RFCs`](https://github.com/CodexMods/RFCs) : Specifications describing how the tooling and mod SDK should behave, heavily inspired by the PEP system
-  - Status : Not started
-  - Progress : 0%
+  - Status : Started internally
+  - Progress : 10%
 - [`SDK`](https://github.com/CodexMods/SDK) : A modding SDK for the Codex app that lets you easily create your own mods in minutes, also including AI-oriented skills to help bootstrap development
   - Status : Not started
   - Progress : 0%
