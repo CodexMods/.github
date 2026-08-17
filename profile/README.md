@@ -16,22 +16,26 @@ Unofficial tooling, SDKs, RFCs, and mods for the Codex desktop app
 > I started this project while the Codex app was being merged into the ChatGPT app. Support for both the former and the latter will be available from day one. Minimum version will be communicated at a later date (likely `26.715.4045.0`).  
 > Content isn't public yet as it is not usable as-is. Source will be synced from the private monorepo as it gets stable.
 
+> [!NOTE]  
+> A large portion of the `reverse` & `auto-reverse` projects is now in halt while I work around the absurdly high pricing it occurs.  
+> In the meantime, work on the SDK & RFCs is prioritized to let the modding happen faster, even if that means less convenient DX & few breaking changes later :)
+
 ## Projects
 - [`reverse`](https://github.com/CodexMods/reverse) : A complete toolkit for creating a locally running development version of the Codex app from its APPX package (generic enough to eventually work for virtually all Electron-based apps)
-  - Status : Started internally
+  - Status : Started internally, paused
     - Details : The app launches from both the packed and unpacked sources and exposes the Debug menus. Partial decompilation have been achieved. Recovery from minified source is still progressing and takes most of my time and money. Repacking as a singular binary with new assets haven't been started.
-  - Progress : 65%
+  - Progress : 70%
 - [`auto-reverse`](https://github.com/CodexMods/auto-reverse) : A plugin for `reverse` that aims to reduce the time between an upstream app update and a working local version
-  - Status : Started internally
+  - Status : Started internally, paused
     - Details : Partially validated with the next version, still have to walk through the releases history. Recovery still has to be stabilized.
-  - Progress : 40%
+  - Progress : 45%
 - [`RFCs`](https://github.com/CodexMods/RFCs) : Specifications describing how the tooling and mod SDK should behave, heavily inspired by the PEP system
   - Status : Started internally
     - Details : First drafts are underway. Work towards standardizing reverse checkpoints & recovered mappings is being done mainly at the research step.
   - Progress : 10%
 - [`SDK`](https://github.com/CodexMods/SDK) : A modding SDK for the Codex app that lets you easily create your own mods in minutes, also including AI-oriented skills to help bootstrap development
-  - Status : Not started
-  - Progress : 0%
+  - Status : Started internally
+  - Progress : 5%
 - [`registry`](https://github.com/CodexMods/registry) : The official community-maintained Codex app mod registry, heavily inspired by the Windhawk registry
   - Status : Not started
   - Progress : 0%
@@ -45,6 +49,9 @@ Unofficial tooling, SDKs, RFCs, and mods for the Codex desktop app
   - Status : Not started
   - Progress : 0%
 - [`mod-discord-rpc`](https://github.com/CodexMods/mod-discord-rpc) : Customizable display of your agent's status in your Discord profile
+  - Status : Not started
+  - Progress : 0%
+- [`mod-multi-accounts`](https://github.com/CodexMods/mod-multi-accounts) : Use the same app with multiple accounts, separate plugins & skills, mods installed, auto balance the usage & more !
   - Status : Not started
   - Progress : 0%
 
