@@ -19,6 +19,7 @@ Unofficial tooling, SDKs, RFCs, and mods for the Codex desktop app
 > [!NOTE]  
 > A large portion of the `reverse` & `auto-reverse` projects is now in halt while I work around the absurdly high pricing it occurs.  
 > In the meantime, work on the SDK & RFCs is prioritized to let the modding happen faster, even if that means less convenient DX & few breaking changes later :)
+> **UPDATE (2)** : multiple projects (and work) took a large part of my time. I did not forget `CodexMods` but will take some time to get back to it.
 
 ## Projects
 - [`reverse`](https://github.com/CodexMods/reverse) : A complete toolkit for creating a locally running development version of the Codex app from its APPX package (generic enough to eventually work for virtually all Electron-based apps)
@@ -52,6 +53,9 @@ Unofficial tooling, SDKs, RFCs, and mods for the Codex desktop app
   - Status : Not started
   - Progress : 0%
 - [`mod-multi-accounts`](https://github.com/CodexMods/mod-multi-accounts) : Use the same app with multiple accounts, separate plugins & skills, mods installed, auto balance the usage & more !
+  - Status : Not started
+  - Progress : 0%
+- [`mod-hotswap`](https://github.com/CodexMods/mod-hotswap) : Update Codex desktop without restarting it ! Implementing the `electron-hotswap` package
   - Status : Not started
   - Progress : 0%
 
